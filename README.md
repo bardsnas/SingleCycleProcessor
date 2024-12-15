@@ -8,3 +8,5 @@
 ### datamem.sv: Handles the Memory aspect of the processor. Necessary for LDUR/STUR operations in ARM Assembly.
 ### sign_extend.sv: Extends instruction bits to 64-bit values necesssary for computation by the ALU.
 ### flag_reg.sv: Stores the flags outputted by the ALU so they are available to be read by the PC_datapth each cycle.
+
+## ! All other files are adopted from RegFile and ALU projects!
